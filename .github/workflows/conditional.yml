@@ -2,7 +2,7 @@ name: conditional-workflow
 on: [push]
 jobs:
   hello-world:
-    if: github.repository == 'Flody27/Github-Examples/actions'
+    if: github.repository == 'Flody27/Github-Examples'
     runs-on: ubuntu-latest
     steps:
       - name: "Hello World"
